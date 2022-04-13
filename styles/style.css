@@ -85,22 +85,18 @@
   font-weight: normal;
 }
 
-.two-columns__main-text {
+.paragraph {
   width: 80%;
   mid-width: 784;
-  font-size: 34px;
-  line-height: 24px;
+  font-size: 24px;
+  line-height: 34px;
   font-weight: normal;
+  
 }
 
-.two-columns__span-accent {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  font-size: 34px;
-  line-height: 24px;
-  font-weight: normal;
+.span-accent {
+  font-weight: bold;
 }
 
-.two-columns__paragraph {
 
-}
+
