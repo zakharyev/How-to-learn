@@ -1,26 +1,67 @@
 .page {
   min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
   max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
 .header {
+  position: relative;
+  display: flex;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  /* выше установили ограничения для секции */
+  background-color: #f2f2f2;
 }
 
+.logo_place_header {
+  position: absolute;
+  display: block;
+  padding-left: 64px;
+  padding-top: 30px;
+  width: 228px;
+  height: 32px;
+}
+
+.header__title {
+  display: flex;
+  align-items: center;
+  padding-left: 64px;
+  font-size: 102px;
+  font-weight: 700px;
+  line-height: 96px;
+  color: #202020;
+  width: 730px;
+}
+
+.header__subtitle {
+  position: absolute;
+  left: 64px;
+  bottom: 30px;
+  font-size: 18px;
+  line-height: 25px;
+  color: #202020;
+  width: 388px;
+}
+
+.header__main-illustration {
+  position: absolute;
+  width: 765px;
+  height: 608px;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+}
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
+  position: absolute;
   height: 568px;
   width: 568px;
+  top: 64px;
+  right: 0;
+  background-color: #2f80ed;
+  z-index: 1;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -29,4 +70,37 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+.description {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 80%;
+}
+
+.two-columns__brief {
+  width: 175px;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: normal;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  mid-width: 784;
+  font-size: 34px;
+  line-height: 24px;
+  font-weight: normal;
+}
+
+.two-columns__span-accent {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 34px;
+  line-height: 24px;
+  font-weight: normal;
+}
+
+.two-columns__paragraph {
+
 }
