@@ -176,9 +176,9 @@
   margin-bottom: 0;
 }
 
-:nth-of-type(8n) {
-  padding-bottom: 0; 
-} 
+.table__text:last-of-type { 
+  margin-bottom: 0; 
+}
 
 .feynman {
   margin: 0;
@@ -287,8 +287,8 @@
   color: #ffffffed;
 }
 
-:nth-of-type(10n) {
-  margin-bottom: 0; 
+.table__text_theme_dark:last-of-type {
+  margin-bottom: 0;
 }
 
 .kaufman__triangle {
